@@ -32,8 +32,8 @@ public class TestCompareJson {
 //		JSONAssert.assertEquals(expected3, actual3, JSONCompareMode.STRICT);
 //		
 //		//case4 : sequence Change : PASS
-//		String actual4 = "{name:\"Jerry\", id:123}";
-//		String expected4 = "{id:123, name:\"Jerry\"}";
+		String actual4 = "{name:\"Jerry\", id:123}";
+		String expected4 = "{id:123, name:\"Jerry\"}";
 //		JSONAssert.assertEquals(expected4, actual4, JSONCompareMode.STRICT);
 		
 		//case4 : sequence Change : FAIL
